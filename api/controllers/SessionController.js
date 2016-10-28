@@ -19,8 +19,8 @@ module.exports = {
   /**
    * `SessionController.create()`
    */
-  create: function (req, res) {
-    return res.view()
+  signup: function (req, res) {
+    res.view()
   },
 
 
