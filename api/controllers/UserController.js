@@ -8,5 +8,8 @@
 module.exports = {
 	login:function (req,res) {
 		res.view();
+	},
+	signup:function (req,res) {
+		res.view();
 	}
 };

@@ -1,0 +1,24 @@
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+<div class="container">
+  <form class="form-signin" action="/user/create" method="pos">
+    <h2 class="form-signin-heading">Fill The Information</h2>
+
+    <label for="inputEmail" class="sr-only">Email</label>
+    <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email Address" required autofocus>
+
+    <label for="inputName" class="sr-only">Name</label>
+    <input type="text" id="inputName" name="name" class="form-control" placeholder="Name" required autofocus>
+
+    <label for="inputPass" class="sr-only">Password</label>
+    <input type="password" id="inputPass" name="password" class="form-control" placeholder="Password" required>
+
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember Me
+      </label>
+    </div>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
+  </form>
+</div>
